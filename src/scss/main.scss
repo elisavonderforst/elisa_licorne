@@ -1,4 +1,11 @@
+@import "bootstrap/scss/bootstrap-grid";
 @import "base";
 @import "layout";
-@import "modules/example";
-@import "bootstrap/scss/bootstrap-grid";
+@import "modules/header";
+@import "modules/menu";
+@import "modules/presentation";
+@import "modules/biere";
+@import "modules/decouvertes";
+@import "modules/engagement";
+@import "modules/degustation";
+@import "modules/footer";
