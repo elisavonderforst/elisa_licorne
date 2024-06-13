@@ -1,0 +1,40 @@
+.biere-horizontal-scroll-container {
+  display: flex;
+  overflow-x: auto;
+}
+
+.biere-horizontal-scroll-card {
+  flex: 0 0 auto;
+  width: 100%;
+  margin-right: 15px;
+  border-radius: 0.25rem;
+  border: none;
+  margin-left: 0;
+}
+
+.biere-blond {
+  background: var(--yellow-biere);
+  width: 100%;
+}
+
+.biere-ipa {
+  background: var(--red-biere);
+  width: 100%;
+}
+
+.biere-dark {
+  background: var(--brown-biere);
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.biere-ingredient {
+  margin: 72px;
+}
+
+.biere-img {
+  margin: 0;
+}
