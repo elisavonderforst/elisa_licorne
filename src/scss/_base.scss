@@ -23,6 +23,7 @@
 
 html {
   font-size: 16px;
+  font-family: "futura-pt", sans-serif;
 }
 
 body {
@@ -45,16 +46,36 @@ video {
   vertical-align: middle;
 }
 
-.row + .row {
-  margin-top: 16px;
+body {
+  background: var(--black);
 }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
+header {
+  background-image: url(../img/biere-header.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 367px;
+  margin: 0;
+}
+
+section {
+  background: var(--white);
+}
+
+footer {
+  background: var(--black);
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 500;
 }
 
 /* ====================================
