@@ -1,3 +1,7 @@
+.decouvertes {
+  padding-top: 93px;
+}
+
 .decouvertes-img {
   position: relative;
   width: 850;
@@ -24,5 +28,25 @@
 }
 
 .decouvertes-text h2 {
-  margin-bottom: 75px;
+  margin-bottom: 128px;
+  text-align: end;
+}
+
+.decouvertes-text p {
+  margin-bottom: 30px;
+}
+
+.decouvertes-button button {
+  margin-left: 25px;
+  width: 309px;
+  padding: 21px;
+  color: var(--black);
+  margin-top: 158px;
+  font-size: 20px;
+  text-transform: uppercase;
+  border: none;
+  background: var(--yellow);
+  font-family: "futura-pt-bold", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
