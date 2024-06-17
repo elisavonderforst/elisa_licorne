@@ -4,4 +4,26 @@
 
 .degustation-biere-img {
   position: absolute;
+  top: 169px;
+  left: 0;
+}
+
+.degustation-text {
+  margin-top: 48px;
+}
+
+.degustation-button button {
+  margin-left: 25px;
+  width: 309px;
+  padding: 21px;
+  color: var(--black);
+  margin-top: 100px;
+  font-size: 20px;
+  text-transform: uppercase;
+  border: none;
+  background: var(--yellow);
+  font-family: "futura-pt-bold", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 320px;
 }
