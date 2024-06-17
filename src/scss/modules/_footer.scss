@@ -1,3 +1,67 @@
 .footer-text {
   color: var(--white);
 }
+
+.footer-newsletter-inscription form input {
+  background: var(--white);
+  width: 473px;
+  height: 45px;
+  border: none;
+  padding-left: 26px;
+}
+
+.footer-newsletter-inscription form input::placeholder {
+  color: var(--black);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.footer-text-droits {
+  text-align: center;
+}
+
+.footer-img-logo {
+  margin: 200px 133px 170px 74px;
+  width: 497px;
+  height: 92px;
+  flex-shrink: 0;
+}
+
+.footer-reseauxsociaux {
+  margin-bottom: 41px;
+}
+
+.footer-text-inscription {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer-reseauxsociaux-tiktok,
+.footer-reseauxsociaux-instagram {
+  display: flex;
+}
+
+.footer-reseauxsociaux-icon {
+  padding-right: 10px;
+}
+
+.footer-reseauxsociaux {
+  font-size: 20px;
+}
+
+.footer-reseauxsociaux h5 {
+  padding: 30px 0 15px;
+}
+
+.footer-text-politique {
+  text-decoration-line: underline;
+}
