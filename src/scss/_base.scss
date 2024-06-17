@@ -51,12 +51,13 @@ body {
 }
 
 header {
-  background-image: url(../img/biere-header.png);
+  background-image: url(../img/header-biere.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding-bottom: 367px;
   margin: 0;
+  position: relative;
 }
 
 section {
@@ -83,7 +84,7 @@ h3 {
   font-style: normal;
   color: var(--black);
   font-size: 64px;
-  margin: 72px;
+  margin: 72px 0 72px;
 }
 
 p {
