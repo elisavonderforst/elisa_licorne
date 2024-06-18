@@ -20,6 +20,15 @@
   margin-left: 62px;
   display: flex;
   padding: 14px 24px;
+  position: fixed;
+  z-index: 1;
+  right: 126px;
+  top: 148px;
+  transition: transform 0.3s;
+}
+
+.header-profil-and-shop.hidden-scroll {
+  transform: translateX(300px);
 }
 
 .header-icone-profil {
@@ -29,5 +38,6 @@
 .header-bottle-img {
   position: absolute;
   right: 0;
-  top: 900px;
+  top: 700px;
+  transition: top 0.1s;
 }
