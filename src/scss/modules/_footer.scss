@@ -2,6 +2,14 @@
   color: var(--white);
 }
 
+a.footer-text {
+  text-decoration: none;
+}
+
+a.footer-text:hover {
+  text-decoration: underline;
+}
+
 .footer-newsletter-inscription form input {
   background: var(--white);
   width: 473px;
@@ -26,7 +34,7 @@
 }
 
 .footer-img-logo {
-  margin: 200px 133px 170px 74px;
+  margin: 150px 133px 170px 74px;
   width: 497px;
   height: 92px;
   flex-shrink: 0;
