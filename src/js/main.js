@@ -19,14 +19,11 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-var openMenu = document.querySelector(".menu-button");
-var closeMenu = document.querySelector(".menu-button-closemenu");
-var blockMenu = document.querySelector(".menu-hidden");
-var burgerMenu = document.getElementById("burgerMenu");
+var burger = document.querySelector(".menu-button-openmenu");
+var menu = document.querySelector(".menu-hidden");
 
-var openCloseMenu = function openCloseMenu() {
-  blockMenu.classList.toggle("is-open");
+var toggleMenu = function toggleMenu() {
+  menu.classList.toggle("is-open");
 };
 
-openMenu.addEventListener("click", openCloseMenu);
-closeMenu.addEventListener("click", openCloseMenu);
+burger.addEventListener("click", toogleMenu);

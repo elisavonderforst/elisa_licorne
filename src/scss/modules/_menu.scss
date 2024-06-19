@@ -1,6 +1,7 @@
 .menu {
   color: var(--black);
   position: relative;
+  overflow: hidden;
 }
 
 .menu-button {
@@ -32,13 +33,14 @@
   position: absolute;
   z-index: 5;
   padding-left: 400px;
-  right: -150%;
-  transition: transform 0.3s;
-  display: none;
+  transform: translateX(100%);
+  transition: opacity 0.4s;
+  pointer-events: none;
 }
 
 .menu-hidden.is-open {
-  transform: translateX(100%);
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .menu-hidden a.menu-ancre {
