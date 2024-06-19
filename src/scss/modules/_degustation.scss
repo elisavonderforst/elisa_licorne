@@ -10,20 +10,30 @@
 
 .degustation-text {
   margin-top: 48px;
+  margin-bottom: 486px;
 }
 
 .degustation-button button {
+  position: absolute;
   margin-left: 25px;
   width: 309px;
   padding: 21px;
-  color: var(--black);
+  background: var(--black);
+  color: var(--yellow);
   margin-top: 100px;
   font-size: 20px;
   text-transform: uppercase;
   border: none;
-  background: var(--yellow);
   font-family: "futura-pt-bold", sans-serif;
   font-weight: 700;
   font-style: normal;
-  margin-bottom: 320px;
+  transition: transform 0.4s;
+  bottom: 320px;
+  right: 110px;
+}
+
+.degustation-button button:hover {
+  transform: scale(1.1);
+  color: var(--black);
+  background: var(--yellow);
 }

@@ -40,13 +40,20 @@
   margin-left: 25px;
   width: 309px;
   padding: 21px;
-  color: var(--black);
   margin-top: 158px;
   font-size: 20px;
   text-transform: uppercase;
   border: none;
-  background: var(--yellow);
+  background: var(--black);
+  color: var(--yellow);
   font-family: "futura-pt-bold", sans-serif;
   font-weight: 700;
   font-style: normal;
+  transition: transform 0.4s;
+}
+
+.decouvertes-button button:hover {
+  background: var(--yellow);
+  color: var(--black);
+  transform: scale(1.1);
 }
