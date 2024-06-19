@@ -9,6 +9,7 @@
   --red-biere: rgba(149, 14, 5, 1);
   --white: rgba(255, 255, 255, 1);
   --black: rgba(0, 0, 0, 1);
+  --white-blur: rgba(255, 255, 255, 0.3);
 }
 
 /* ====================================
@@ -28,12 +29,23 @@ html {
 }
 
 body {
+  overflow-x: hidden;
+  transition: filter 0.3s ease;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 
   font-size: 1rem;
   line-height: 1.25;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+body.scroll {
+  overflow-y: visible;
 }
 
 a {

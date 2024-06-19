@@ -21,9 +21,24 @@ document.addEventListener("DOMContentLoaded", function () {
 
 var burger = document.querySelector(".menu-button-openmenu");
 var menu = document.querySelector(".menu-hidden");
+var closeBurger = document.querySelector(".menu-button-closemenu");
+var overlay = document.querySelector(".menu-overlay");
+var body = document.body;
 
 var toggleMenu = function toggleMenu() {
+  console.log("menu ouvert");
   menu.classList.toggle("is-open");
+  body.classList.toggle("no-scroll");
+  overlay.classList.toggle("is-visible");
 };
 
-burger.addEventListener("click", toogleMenu);
+var toggleMenuClose = function toggleMenuClose() {
+  console.log("menu fermer");
+  menu.classList.remove("is-open");
+  overlay.classList.remove("is-visible");
+  body.classList.remove("no-scroll");
+};
+
+burger.addEventListener("click", toggleMenu);
+closeBurger.addEventListener("click", toggleMenuClose);
+// overlay.addEventListener("click", toggleMenu);
