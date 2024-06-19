@@ -34,6 +34,8 @@
   padding-left: 400px;
   right: -150%;
   transition: transform 0.3s;
+  display: none;
+  overflow-x: hidden;
 }
 
 .menu-hidden.is-open {
