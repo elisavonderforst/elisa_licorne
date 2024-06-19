@@ -4,10 +4,12 @@
 }
 
 .biere-horizontal-scroll-card {
+  position: relative;
   flex: 0 0 auto;
   border: none;
   width: 100%;
   margin-left: 0;
+  overflow: hidden;
 }
 
 .biere-blond {
@@ -32,7 +34,7 @@
 
 .biere-dark {
   background: var(--brown-biere);
-  width: 100%;
+  width: 90%;
   position: relative;
 }
 
@@ -54,8 +56,31 @@
   font-size: 25px;
   padding: 20px 31px;
   position: absolute;
+  z-index: 2;
   right: 144px;
   bottom: 40px;
+  transition: transform 0.4s;
+}
+
+.biere-bouton-know:hover {
+  transform: scale(1.1);
+}
+
+.biere-bouton-know:active {
+  color: var(--white);
+  outline: 4px solid var(--white);
+}
+
+.biere-blond .biere-bouton-know:active {
+  background: var(--yellow-biere);
+}
+
+.biere-ipa .biere-bouton-know:active {
+  background: var(--red-biere);
+}
+
+.biere-dark .biere-bouton-know:active {
+  background: var(--brown-biere);
 }
 
 .biere h4 {
@@ -74,6 +99,21 @@
 }
 
 .biere-img {
-  height: 100%;
-  width: 100%;
+  position: absolute;
+  z-index: 1;
+  bottom: 40px;
+  height: 95%;
+  width: 95%;
+}
+
+.biere-ipa .biere-img {
+  bottom: 60px;
+}
+
+.biere-dark .biere-img {
+  bottom: 80px;
+}
+
+.biere-ingredient {
+  padding-bottom: 100px;
 }

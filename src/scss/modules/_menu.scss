@@ -7,7 +7,7 @@
   background: var(--yellow);
   margin-top: 40px;
   position: fixed;
-  z-index: 2;
+  z-index: 4;
   right: 126px;
   transition: transform 0.3s;
 }
@@ -30,12 +30,11 @@
 .menu-hidden {
   background: var(--white);
   position: absolute;
-  z-index: 3;
+  z-index: 5;
   padding-left: 400px;
   right: -150%;
   transition: transform 0.3s;
   display: none;
-  overflow-x: hidden;
 }
 
 .menu-hidden.is-open {
