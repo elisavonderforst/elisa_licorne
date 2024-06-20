@@ -31,6 +31,7 @@ html {
 body {
   overflow-x: hidden;
   transition: filter 0.3s ease;
+  background: var(--black);
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -55,9 +56,9 @@ video {
   vertical-align: middle;
 }
 
-body {
-  background: var(--black);
-}
+/* ====================================
+// base rules
+// ==================================== */
 
 header {
   background-image: url(../img/header-bieres.png);
@@ -110,7 +111,3 @@ footer h5 {
   font-family: "futura-pt-bold", sans-serif;
   font-weight: 700;
 }
-
-/* ====================================
-// base rules
-// ==================================== */

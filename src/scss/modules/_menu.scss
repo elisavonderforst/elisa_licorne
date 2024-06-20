@@ -8,23 +8,24 @@
   background: var(--white);
   position: absolute;
   z-index: 5;
-  transform: translateX(1400px);
-  padding-left: 200px;
-  transition: transform 0.4s;
-  pointer-events: none;
   overflow-x: hidden;
+  transform: translateX(1400px);
+  transition: transform 0.4s;
 }
 
 .menu-hidden.is-open {
   transform: translateX(403px);
-  pointer-events: auto;
   overflow-x: visible;
   position: fixed;
 }
 
 .menu-button {
-  background: var(--yellow);
-  margin-top: 40px;
+  font-family: "futura-pt-bold", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  text-align: center;
   position: fixed;
   z-index: 5;
   right: 60px;
@@ -35,25 +36,13 @@
   transform: translatey(-200px);
 }
 
-.menu-button-openmenu {
-  font-size: 50px;
-  font-family: "futura-pt-bold", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 14px 33px;
-  margin: 0;
-}
-
 .menu-hidden a.menu-ancre {
-  text-decoration: none;
-  text-transform: uppercase;
   font-family: "futura-pt-bold", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 70px;
-  padding-top: 35px;
+  text-decoration: none;
+  text-transform: uppercase;
   display: flex;
 }
 
@@ -78,23 +67,14 @@
   transform-origin: left;
 }
 
-.menu-ancre-section {
-  margin-top: 120px;
-  margin-right: 120px;
-  margin-bottom: 100px;
-}
-
 .menu-hidden .menu-button-closemenu {
-  background: var(--yellow);
   color: var(--white);
-  padding: 14px 13px;
-  margin: 0;
-  font-size: 50px;
-  text-transform: uppercase;
   font-family: "futura-pt-bold", sans-serif;
+  font-size: 50px;
   font-weight: 700;
   font-style: normal;
   text-align: center;
+  text-transform: uppercase;
   position: absolute;
   right: 60px;
   top: 40px;
@@ -107,7 +87,7 @@
   left: -80px;
 }
 
-.menu-langue-section {
+.menu-language-section {
   position: absolute;
   right: 60px;
   bottom: 90px;
@@ -115,15 +95,15 @@
   flex-direction: column;
 }
 
-.menu-langue-ancre {
-  text-transform: uppercase;
-  text-decoration: none;
+.menu-language-ancre {
   font-family: "futura-pt-bold", sans-serif;
   font-weight: 700;
   font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
-.menu-langue-ancre:hover {
+.menu-language-ancre:hover {
   text-decoration: underline;
 }
 

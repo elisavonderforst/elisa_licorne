@@ -4,27 +4,7 @@
   font-weight: 700;
 }
 
-.header-logo {
-  margin: auto;
-  margin-top: 590px;
-}
-
-.header-icon {
-  border: none;
-  background: var(--yellow);
-  transition: transform 0.4s;
-}
-
-.header-icon:hover {
-  transform: translateY(-4px);
-}
-
 .header-profil-and-shop {
-  margin-top: 30px;
-  background: var(--yellow);
-  margin-left: 62px;
-  display: flex;
-  padding: 14px 24px;
   position: fixed;
   z-index: 4;
   right: 60px;
@@ -36,8 +16,14 @@
   transform: translateX(300px);
 }
 
-.header-icone-profil {
-  margin-right: 40px;
+.header-icon {
+  border: none;
+  background: var(--yellow);
+  transition: transform 0.4s;
+}
+
+.header-icon:hover {
+  transform: translateY(-4px);
 }
 
 .header-bottle-img {
