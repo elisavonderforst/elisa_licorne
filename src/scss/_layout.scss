@@ -83,6 +83,18 @@
   margin-left: 75px;
 }
 
+@media (min-width: 1450px) {
+  .engagement-img-fields {
+    margin-left: 120px;
+  }
+}
+
+@media (min-width: 1740px) {
+  .engagement-img-fields {
+    margin-left: 320px;
+  }
+}
+
 .l-engagement-text h2 {
   margin-top: 51px;
   padding-bottom: 132px;

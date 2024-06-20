@@ -7,6 +7,9 @@
 .menu-hidden {
   background: var(--white);
   position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
   z-index: 5;
   overflow-x: hidden;
   transform: translateX(2400px);
@@ -14,7 +17,7 @@
 }
 
 .menu-hidden.is-open {
-  transform: translateX(403px);
+  transform: translateX(0%);
   overflow-x: visible;
   position: fixed;
 }
@@ -82,7 +85,6 @@
 
 .menu-img-burgermenu {
   position: absolute;
-  width: 80%;
   top: 10px;
   left: -80px;
 }
