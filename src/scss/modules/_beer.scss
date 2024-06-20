@@ -1,9 +1,9 @@
-.biere-horizontal-scroll-container {
+.beer-horizontal-scroll-container {
   display: flex;
   overflow-x: auto;
 }
 
-.biere-horizontal-scroll-card {
+.beer-horizontal-scroll-card {
   position: relative;
   flex: 0 0 auto;
   border: none;
@@ -11,33 +11,33 @@
   overflow: hidden;
 }
 
-.biere-blond {
+.beer-blond {
   background: var(--yellow-biere);
   width: 90%;
   position: relative;
 }
 
-.biere-blond button {
+.beer-blond button {
   color: var(--yellow-biere);
 }
 
-.biere-ipa {
+.beer-ipa {
   background: var(--red-biere);
   width: 90%;
   position: relative;
 }
 
-.biere-ipa button {
+.beer-ipa button {
   color: var(--red-biere);
 }
 
-.biere-dark {
+.beer-dark {
   background: var(--brown-biere);
   width: 90%;
   position: relative;
 }
 
-.biere-dark button {
+.beer-dark button {
   color: var(--brown-biere);
 }
 
@@ -45,7 +45,7 @@
   display: none;
 }
 
-.biere-button {
+.beer-button {
   background: var(--white);
   border: none;
   font-family: "futura-pt-bold", sans-serif;
@@ -60,28 +60,28 @@
   transition: transform 0.4s;
 }
 
-.biere-button:hover {
+.beer-button:hover {
   transform: scale(1.1);
 }
 
-.biere-button:active {
+.beer-button:active {
   color: var(--white);
   outline: 4px solid var(--white);
 }
 
-.biere-blond .biere-button:active {
+.beer-blond .beer-button:active {
   background: var(--yellow-biere);
 }
 
-.biere-ipa .biere-button:active {
+.beer-ipa .beer-button:active {
   background: var(--red-biere);
 }
 
-.biere-dark .biere-button:active {
+.beer-dark .beer-button:active {
   background: var(--brown-biere);
 }
 
-.biere h4 {
+.beer h4 {
   font-family: "futura-pt-bold", sans-serif;
   font-weight: 700;
   font-size: 20px;
@@ -89,14 +89,14 @@
   line-height: normal;
 }
 
-.biere p {
+.beer p {
   font-family: "futura-pt", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 20px;
 }
 
-.biere-img {
+.beer-img {
   position: absolute;
   z-index: 1;
   bottom: 40px;
@@ -104,28 +104,32 @@
   width: 95%;
 }
 
-.biere-ipa .biere-img {
+.beer-ipa .beer-img {
   bottom: 60px;
 }
 
-.biere-dark .biere-img {
+.beer-dark .beer-img {
   bottom: 80px;
 }
 
-.biere-triangle {
+.beer-ingredient {
+  padding-bottom: 100px;
+}
+
+.beer-triangle {
   position: absolute;
   left: 0;
   width: 0;
   height: 0;
 }
 
-.biere-ipa .biere-triangle {
+.beer-ipa .beer-triangle {
   border-top: 325px solid transparent;
   border-bottom: 325px solid transparent;
   border-left: 100px solid var(--yellow-biere);
 }
 
-.biere-dark .biere-triangle {
+.beer-dark .beer-triangle {
   border-top: 300px solid transparent;
   border-bottom: 300px solid transparent;
   border-left: 100px solid var(--red-biere);

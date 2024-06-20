@@ -11,15 +11,15 @@
   transition: opacity 0.3s ease-in-out;
 }
 
-.decouvertes-img img.decouvertes-img-bieres-hover {
+.decouvertes-img img.decouvertes-img-beers-hover {
   opacity: 0;
 }
 
-.decouvertes-img:hover img.decouvertes-img-bieres-hover {
+.decouvertes-img:hover img.decouvertes-img-beers-hover {
   opacity: 1;
 }
 
-.decouvertes-img:hover img.decouvertes-img-bieres {
+.decouvertes-img:hover img.decouvertes-img-beers {
   opacity: 0;
 }
 
